@@ -2,7 +2,6 @@ package dk.itu.helge.textreader
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.widget.TextView
 import android.widget.Toast
 import java.io.IOException
 import java.nio.charset.Charset
@@ -31,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         val wordCounter = WordCounter(completeText)
         val numberOfWords = wordCounter.count().toString()
 
-        text_view!!.text = completeText
+        text_view.text = completeText
 
         val dialogArgs = Bundle()
         dialogArgs.putString("noWords", numberOfWords)
