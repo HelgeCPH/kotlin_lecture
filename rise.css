@@ -1,3 +1,7 @@
+.reveal .slides > section > section {
+    padding: 20px 20px;
+}
+
 .reveal img {
     max-width: 60%;
 }
@@ -50,14 +54,9 @@
 
 .backgrounds {
     background: url(images/ITUboxverticaluk.jpg) no-repeat 0px 0px;
-    background-size: 2.7% 30%;
+    background-size: 2.3% 30%;
     background-position: left top;
 }
-
-.cell {
-    padding: 15px;
-}
-
 
 .output_text {
     max-height: 600px;
